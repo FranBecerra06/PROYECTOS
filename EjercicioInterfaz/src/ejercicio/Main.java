@@ -2,7 +2,7 @@ package ejercicio;
 
 import java.util.Scanner;
 
-/*
+/**
  * Clase principal que permite al usuario seleccionar y reproducir el contenido.
  * 
  * @author FranBecerra
@@ -13,7 +13,7 @@ public class Main {
 	
 	/**
 	 * Metodo que gestiona la seleccion y reproduccion del contenido.
-	 * @param args
+	 * @param args Argumentos
 	 */
   public static void main(String[] args) {
 	  Scanner scanner = new Scanner(System.in);
