@@ -2,7 +2,7 @@ package ejercicio;
 
 import java.util.Scanner;
 
-/**
+/*
  * Clase principal que permite al usuario seleccionar y reproducir el contenido.
  * 
  * @author FranBecerra

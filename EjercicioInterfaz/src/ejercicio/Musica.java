@@ -33,7 +33,7 @@ public class Musica implements Reproducible {
 
 	/**
 	 * Se obtiene el tipo de contenido, en este caso, la musica.
-	 * @return Tipo de contenido MÚSICA.
+	 * @return Tipo de contenido MÚSICA
 	 */
 	public TipoContenido obtenerTipoContenido() {
 		

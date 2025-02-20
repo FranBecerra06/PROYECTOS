@@ -2,7 +2,7 @@ package ejercicio;
 
 /**
  * Representa un tipo de contenido serie que se puede reproducir. Implementa la
- * interfaz Reproducible.
+ * Interfaz Reproducible
  * 
  * @author FranBecerra
  * @version 1.0

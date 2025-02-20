@@ -22,7 +22,7 @@ public interface Reproducible {
 	/**
 	 * Obtiene el tipo de contenido que se esta reproduciendo.
 	 * 
-	 * @return Tipo de contenido.
+	 * @return Tipo de contenido
 	 */
 	TipoContenido obtenerTipoContenido();
 	

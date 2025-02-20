@@ -1,7 +1,7 @@
 package ejercicio;
 
 /**
- * Enumeracion que representa los tipos de contenido disponibles.
+ * Enumeración que representa los tipos de contenido disponibles.
  * 
  * @author FranBecerra
  * @version 1.0

@@ -31,7 +31,7 @@ public class Podcast implements Reproducible {
 /**
  * Obtiene el tipo de contenido que es Podcast.
  * 
- * @return Tipo de contenido PODCAST.
+ * @return Tipo de contenido PODCAST
  */
 	
 	public TipoContenido obtenerTipoContenido() {

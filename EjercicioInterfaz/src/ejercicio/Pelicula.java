@@ -32,7 +32,7 @@ public class Pelicula implements Reproducible{
 /**
  * Se obtiene el tipo de contenido, en este caso la pelicula.
  * 
- * @return Tipo de contenido PELÍCULA.
+ * @return Tipo de contenido PELÍCULA
  */
 	
 	public TipoContenido obtenerTipoContenido() {
