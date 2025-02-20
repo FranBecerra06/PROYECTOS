@@ -16,7 +16,7 @@ public class Podcast implements Reproducible {
 	 */
 	
 	public Podcast() {
-		
+	//VACIO	
 	}
 	
 	
