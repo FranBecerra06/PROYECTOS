@@ -8,7 +8,16 @@ package ejercicio;
  */
 
 public enum TipoContenido{
+	/** Contenido de tipo Música */
+	MUSICA, 
 	
-	MUSICA, PELICULA, SERIE, PODCAST
+	/** Contenido de tipo Película */
+	PELICULA, 
+	
+	/** Contenido de tipo Serie */
+	SERIE, 
+	
+	/** Contenido de tipo Podcast */
+	PODCAST
 	
 }

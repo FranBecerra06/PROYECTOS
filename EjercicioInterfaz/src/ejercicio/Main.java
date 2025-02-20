@@ -12,6 +12,14 @@ import java.util.Scanner;
 public class Main {
 	
 	/**
+	 * Constructor de la clase Main
+	 */
+	public Main() {
+		//VACIO
+	}
+	
+	
+	/**
 	 * Metodo que gestiona la seleccion y reproduccion del contenido.
 	 * @param args Argumentos.
 	 */
