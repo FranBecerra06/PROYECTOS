@@ -11,6 +11,15 @@ package ejercicio;
 public class Musica implements Reproducible {
 
 	/**
+	 * Constructor por defecto de la clase.
+	 */
+	
+	public Musica() {
+//VACIO.
+	}
+
+	
+	/**
 	 * Se reproduce la música.
 	 */
 	
@@ -19,6 +28,7 @@ public class Musica implements Reproducible {
 		System.out.println("Reproduciendo música...");
 		
 	}
+	
 	
 	/**
 	 * Se pausa la musica.

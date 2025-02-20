@@ -11,6 +11,12 @@ package ejercicio;
 public class Serie implements Reproducible {
 
 	/**
+	 * Constructor de la clase Serie.
+	 */
+	public Serie() {
+	}
+
+	/**
 	 * Se inicia la reproduccion.
 	 */
 	public void reproducir() {

@@ -11,6 +11,17 @@ package ejercicio;
 public class Pelicula implements Reproducible{
 
 	/**
+	 * Constructor de la clase pelicula.
+	 */
+	
+	public Pelicula() {
+//VACIO
+	
+	}
+
+	
+	
+	/**
 	 * Inicia la reproducción de la película.
 	 */
 	
@@ -20,6 +31,7 @@ public class Pelicula implements Reproducible{
 		
 	}
 	
+
 	/**
 	 * Se pausa la película.
 	 */

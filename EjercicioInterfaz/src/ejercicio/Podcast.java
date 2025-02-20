@@ -10,6 +10,16 @@ package ejercicio;
 
 public class Podcast implements Reproducible {
 
+	
+	/**
+	 * Constructor de la clase Podcast.
+	 */
+	
+	public Podcast() {
+		
+	}
+	
+	
 /**
  * Se reproduce el podcast.
  */
