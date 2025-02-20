@@ -1,27 +1,43 @@
 package ejercicio;
 
-//LA CLASE SERIE SE IMPLEMENTA A LA CLASE REPRODUCIBLE
-public class Serie implements Reproducible{
+/**
+ * Representa un tipo de contenido serie que se puede reproducir. Implementa la
+ * interfaz Reproducible.
+ * 
+ * @author FranBecerra
+ * @version 1.0
+ */
 
-	//IMPLEMENTAMOS METODOS Y EL TIPO DE CONTENIDO
+public class Serie implements Reproducible {
+
+	/**
+	 * Se inicia la reproduccion.
+	 */
 	public void reproducir() {
-		
+
 		System.out.println("Reproduciendo serie...");
-		
+
 	}
-	
+
+	/**
+	 * Se pausa la reproduccion.
+	 */
 	public void pausar() {
-		
+
 		System.out.println("Serie pausada.");
-		
+
 	}
-	
-	//TIPO DE CONTENIDO
+
+	/**
+	 * Obtiene el tipo de contenido, que en este caso es Serie.
+	 * 
+	 * @return Tipo de contenido SERIE.
+	 */
+
 	public TipoContenido obtenerTipoContenido() {
-		
+
 		return TipoContenido.SERIE;
-		
+
 	}
-	
-	
+
 }

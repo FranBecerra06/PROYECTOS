@@ -1,22 +1,39 @@
 package ejercicio;
 
-//LA CLASE PODCAST IMPLEMENTA A REPRODUCIBLE
+/**
+ * Representa un tipo de contenido de podcast que puede ser reproducido.
+ * Implementa la interfaz Reproducible.
+ * 
+ * @author FranBecerra
+ * @version 1.0
+ */
+
 public class Podcast implements Reproducible {
 
-	//IMPLEMENTAMOS METODOS Y EL TIPO DE CONTENIDO
+/**
+ * Se reproduce el podcast.
+ */
 	public void reproducir() {
 		
 		System.out.println("Reproduciendo podcast...");
 		
 	}
 	
+	/**
+	 * Se pausa el podcast.
+	 */
 	public void pausar() {
 		
 		System.out.println("Podcast pausado.");
 		
 	}
 	
-	//TIPO DE CONTENIDO
+/**
+ * Obtiene el tipo de contenido que es Podcast.
+ * 
+ * @return Tipo de contenido PODCAST.
+ */
+	
 	public TipoContenido obtenerTipoContenido() {
 		
 		return TipoContenido.PODCAST;
