@@ -15,7 +15,14 @@ import java.util.Scanner;
 
 public class Main {
 
+	
 	/**
+     * Constructor de la clase Main.
+     */
+    public Main() {
+    }
+    
+    /**
 	 * 
 	 * Método principal que ejecuta la aplicación.
 	 * 

@@ -1,13 +1,10 @@
 package CatalogoMuseo;
 
-/**
- * La clase Artista representa un artista con nombre, lugar de nacimiento, fecha de nacimiento y fecha de fallecimiento. 
- * Proporciona métodos para obtener información sobre el artista y mostrarla.
- * También incluye métodos para comparar artistas y generar una representacion en forma de cadena.
- */
 
 import java.util.Date;
-
+/**
+ * Representa un artista en el catálogo del museo.
+ */
 public class Artista {
 
 	/**
