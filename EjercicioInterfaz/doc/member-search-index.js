@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"biblioteca","c":"Libro","l":"getAutor()"},{"p":"biblioteca","c":"Libro","l":"getTitulo()"},{"p":"biblioteca","c":"Libro","l":"isDisponible()"},{"p":"biblioteca","c":"Libro","l":"Libro(String, String)","u":"%3Cinit%3E(java.lang.String,java.lang.String)"},{"p":"biblioteca","c":"Libro","l":"setDisponible(boolean)"}];updateSearchResults();
