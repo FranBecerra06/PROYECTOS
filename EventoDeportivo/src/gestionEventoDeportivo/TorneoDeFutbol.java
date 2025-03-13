@@ -1,15 +1,15 @@
 package gestionEventoDeportivo;
 
-import java.time.LocalDate;	
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
 public class TorneoDeFutbol extends EventoDeportivo {
 	private ArrayList<Equipo> equipos;
 
-	public TorneoDeFutbol(String nombre, LocalDate fecha, String lugar) {
+	public TorneoDeFutbol(String nombre, LocalDate fecha, String lugar, ArrayList<Equipo> equipos) {
 		super(nombre, fecha, lugar);
-		this.equipos = new ArrayList<>();
+		this.equipos = equipos;
 	}
 
 	public ArrayList<Equipo> getEquipos() {
