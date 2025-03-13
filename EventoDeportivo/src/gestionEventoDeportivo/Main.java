@@ -63,7 +63,7 @@ public class Main {
                     String nombreEstadio = scanner.nextLine();
                     torneo = new TorneoDeFutbol(nombreTorneo, LocalDate.now(), nombreEstadio, null);
                     System.out.println("Torneo creado.");
-                    break;
+                    break
                 case 5:
                     System.out.print("Nombre del equipo: ");
                     String nombreEquipo = scanner.nextLine();
