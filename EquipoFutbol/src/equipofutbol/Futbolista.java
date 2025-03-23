@@ -2,8 +2,10 @@ package equipofutbol;
 
 import java.util.List;
 
+//Clase Futbolista implementa a Interfaz Deportista
 public class Futbolista implements Deportista {
 
+	//Atributos de Futbolista
 	private String nombre;
 	private int edad;
 	private Posicion posicion;
@@ -11,6 +13,7 @@ public class Futbolista implements Deportista {
 	private List<String> listadoEquipos;
 	private int totalTrofeos;
 
+	//COnstructor de Futbolista que implementa a Deportista
 	public Futbolista(String nombre, int edad, Posicion posicion, int anyosProfesional, List<String> listadoEquipos,
 			int totalTrofeos) {
 
@@ -22,6 +25,7 @@ public class Futbolista implements Deportista {
 		this.totalTrofeos = totalTrofeos;
 	}
 
+	//Getters y setters
 	public String getNombre() {
 		return nombre;
 	}
@@ -70,9 +74,10 @@ public class Futbolista implements Deportista {
 		this.totalTrofeos = totalTrofeos;
 	}
 
+	//ToString
 	public String toString() {
-		return "Futbolista: Nombre=" + nombre + ", edad=" + edad + ", posicion=" + posicion + ",Años profesional="
-				+ anyosProfesional + ", listadoEquipos=" + listadoEquipos + ", totalTrofeos=" + totalTrofeos;
+		return "Futbolista -> Nombre: " + nombre + " / Edad: " + edad + " / Posicion: " + posicion + " / Años como profesional: "
+				+ anyosProfesional + " / Listado de los Equipos: " + listadoEquipos + " / Total De Trofeos: " + totalTrofeos;
 	}
 
 }
